@@ -15,8 +15,4 @@ export function usePoller(fn, delay) {
       return () => clearInterval(id);
     }
   }, [delay]);
-  //run at start too
-  useEffect(() => {
-    fn()
-  }, []);
 }

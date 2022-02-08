@@ -6,9 +6,6 @@ import { MintCountdown } from './MintCountdown';
 import { toDate, formatNumber } from './utils';
 import { CandyMachineAccount } from './candy-machine';
 
-type HeaderProps = {
-  candyMachine?: CandyMachineAccount;
-};
 
 export const Header = ({ candyMachine, refreshCandyMachineState }: {candyMachine?: CandyMachineAccount; refreshCandyMachineState: any }) => {
   return (

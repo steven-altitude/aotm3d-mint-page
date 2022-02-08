@@ -7,10 +7,7 @@ import {
   DataSizeFilter,
 } from "@solana/web3.js";
 // @ts-ignore
-import fetch from "node-fetch";
-import { AnchorWallet } from "@solana/wallet-adapter-react";
 
-var tempData: any;
 
 /* const METADATA_PUBKEY = new PublicKey(
   'metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s',
